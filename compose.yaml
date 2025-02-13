@@ -1,0 +1,9 @@
+name: 'workupy-test-frontend'
+services:
+  frontend:
+    container_name: 'workupy-frontend'
+    image: 'workupy-frontend:latest'
+    build: .
+    env_file:
+      - path: ./.env
+        required: false

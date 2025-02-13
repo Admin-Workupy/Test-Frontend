@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  border: none;
+}
+
+body {
+  background-color: grey;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  min-width: 500px;
+  min-height: 250px;
+  margin: auto;
+  background-color: white;
+  box-shadow: black 10px 10px 10px 0px;
+  border-radius: 10px;
+}
